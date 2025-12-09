@@ -1,5 +1,7 @@
 # solid-state-phase-transformations-steel
-Modelling the thermodynamic equilibrium and para-equilibrium between γ and α phases (using a CALPHAD-based approach
+Modelling the thermodynamic equilibrium and para-equilibrium between γ and α phases (using a CALPHAD-based approach)
+
+The access to full phd thesis: https://theses.fr/2012LORR0342
 
 Computational Models and Simulation Code:
 This repository contains the code and resources developed for research on the thermodynamic and kinetic mechanisms governing the austenite (γ) to ferrite (α) phase transformation in steels.
