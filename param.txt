@@ -1,0 +1,32 @@
+//Fe-C
+//
+//Diffusion: facteur preexponentiel D0 (m2.s-1)
+2.e-6
+//Diffusion: energie d'activation E0 (J.mol-1)
+1.087e5
+//Concentration nominale (at.) c0
+2.e-3
+//Volume molaire matrice (m3.mol-1) 7,09e-6
+7.09e-6
+//densite (m-3)
+1.e21
+//rayon initial (m)
+1.e-10
+//Concentration dans precipite (at.)
+0.25
+//Constante d'equilibre K0exp(-Q/RT) (# et J.mol-1)
+0.22 11720.
+//Energie d'interface (J.m-2)
+0.2
+//Volume molaire precipite (m3.mol-1) 2,33e-5
+2.33e-5
+//nb segments ---nbseg
+1
+//Tems(s) Temperature (K) Nb pas de temps 926
+0. 973. 0.
+1. 973. 1.
+//
+//Fichier de sortie
+sortie.txt
+
+

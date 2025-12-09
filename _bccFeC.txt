@@ -1,0 +1,144 @@
+//Taille
+2
+//parametre de taille
+0 1
+1 3
+//l'intervalle de la temperature pour ferrite
+298.15 1811.00 6000.00
+//ordre pour Gpower
+-9 -3 -2 -1 0 1 2 3
+//Taille pour GHSERp
+3 1 2 9
+//matrice GHSERp pour ferrite
+//temperature i[Fe/Cr] j[C/Va] l[l'ordre] valeur
+0 0 0 0 -96.4143
+0 0 0 1 0
+0 0 0 2 3.6e10
+0 0 0 3 -7.929e8
+0 0 0 4 7765159
+0 0 0 5 271170.377  
+0 0 0 6 711.991
+0 0 0 7 -0.00581442
+0 0 0 8 -5.8927e-8
+1 0 0 0 -118.9
+1 0 0 1 2.29603e31
+1 0 0 2 3.6e10
+1 0 0 3 -7.929e8
+1 0 0 4 7687800
+1 0 0 5 244561.096
+1 0 0 6 887.16955
+1 0 0 7 -14.169e-4
+1 0 0 8 0
+2 0 0 0 -118.9
+2 0 0 1 2.29603e31
+2 0 0 2 3.6e10
+2 0 0 3 -7.929e8
+2 0 0 4 7687800
+2 0 0 5 244561.096
+2 0 0 6 887.16955
+2 0 0 7 -14.169e-4
+2 0 0 8 0
+0 0 1 0 -23.5143
+0 0 1 1 0
+0 0 1 2 0
+0 0 1 3 0
+0 0 1 4 77359
+0 0 1 5 1225.7
+0 0 1 6 124.134
+0 0 1 7 -0.00439752
+0 0 1 8 -5.8927e-8
+1 0 1 0 -46
+1 0 1 1 2.29603e31
+1 0 1 2 0
+1 0 1 3 0
+1 0 1 4 0
+1 0 1 5 -25383.581
+1 0 1 6 299.31255
+1 0 1 7 0
+1 0 1 8 0
+2 0 1 0 -46
+2 0 1 1 2.29603e31
+2 0 1 2 0
+2 0 1 3 0
+2 0 1 4 0
+2 0 1 5 -25383.581
+2 0 1 6 299.31255
+2 0 1 7 0
+2 0 1 8 0
+//l'ordre pour L1power
+0 0
+//Taille pour L1
+3 1 1 1 1 1
+//matrice L1 pour ferrite (Fe-Cr-C/Va)
+//temperature i[Fe/Cr] j[C] k[Va] l[l'ordre] m[l'ordre pour polynom] valeur
+0 0 0 0 0 0 0
+//l'ordre pour L2power
+1  
+//Taille pour L2
+3 1 2 1 1 2
+//matrice L2 pour ferrite (C-Va-Fe/Cr)
+//temperature i[C/Va] j[Fe] k[Cr] l[l'ordre] m[l'ordre pour polynom] valeur
+0 0 1 0 0 1 -190
+1 0 1 0 0 1 -190
+2 0 1 0 0 1 -190
+//l'ordre pour L3power
+0 0
+//Taille pour L3ini
+3 1 1 1 1 1 1
+//matrice L3ini pour ferrite (?-?-?-C/Va)
+0 0 0 0 0 0 0 0
+//l'ordre pour L0power
+0
+//Taille pour L0
+3 1 1 1 1 1 1
+//matrice L0 pour ferrite (Fe-Cr-C-Va)
+//temperature i[Fe] j[Cr] k[C] l[Va] m[l'ordre] n[l'ordre pour polynom] valeur
+0 0 0 0 0 0 0 0
+//l'ordre pour TCpower
+0
+//Taille pour TC
+3 1 2 2
+//matrice TC pour ferrite
+//temperature i[Fe/Cr] j[C/Va] l[l'ordre] valeur
+0 0 0 1 1043
+1 0 0 1 1043
+2 0 0 1 1043
+0 0 1 1 1043
+1 0 1 1 1043
+2 0 1 1 1043
+//l'ordre pour TC1power
+0
+//Taille pour TC1
+3 1 1 1 1 1
+//matrice TC1 pour ferrite (Fe-Cr-C/Va)
+//temperature i[Fe] j[Cr] k[C/Va] l[l'ordre] m[l'ordre pour polynom] valeur
+0 0 0 0 0 0 0
+//l'ordre pour BMAGpower
+0
+//Taille pour BMAG
+3 1 2 2
+//matrice BMAG pour ferrite
+//temperature i[Fe/Cr] j[C/Va] l[ordre] valeur
+0 0 0 1 2.22
+1 0 0 1 2.22
+2 0 0 1 2.22
+0 0 1 1 2.22
+1 0 1 1 2.22
+2 0 1 1 2.22
+//l'ordre pour BMAG1power
+0
+//Taille pour BMAG1
+3 1 1 1 1 1
+//matrice BMAG1 pour ferrite (Fe-Cr-C/Va)
+//teperature i[Fe] j[Cr] k[C/Va] l[l'ordre] m[l'ordre pour polynom] valeur
+0 0 0 0 0 0 0
+//parametre p
+0.4 1.
+//taille coefficiente pre-exponantial
+1
+//coeff D0
+0 2.2e-4
+//taille Q
+1
+//coeff Q
+0 1.225e5

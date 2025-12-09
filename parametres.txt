@@ -1,0 +1,12 @@
+//Diffusion (m2.s-1)
+1.e-15
+//distance approximi de gradiente concentration
+100.
+//distance approximi de gradiente concentration ferrite
+100.
+//distance approximi de gradiente concentration austenit
+90.
+//dtemps
+1.e-1
+
+

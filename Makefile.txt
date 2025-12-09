@@ -1,0 +1,98 @@
+#!/bin/bash
+flags="-g -O3 -I/opt/local/include"
+
+echo rm -f *.o
+rm -f *.o
+
+echo gcc -c ${flags} point.cpp -o point.o
+if !(gcc -c ${flags} point.cpp -o point.o) 
+  then exit -1;
+fi
+echo gcc -c ${flags} hyperplane.cpp -o hyperplane.o
+if !(gcc -c ${flags} hyperplane.cpp -o hyperplane.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} tools.cpp -o tools.o
+if !(gcc -c ${flags} tools.cpp -o tools.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} qhull.cpp -o qhull.o
+if !(gcc -c ${flags} qhull.cpp -o qhull.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} preci.cpp -o preci.o
+if !(gcc -c ${flags} preci.cpp -o preci.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} newt.cpp -o newt.o
+if !(gcc -c ${flags} newt.cpp -o newt.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} donnees.cpp -o donnees.o
+if !(gcc -c ${flags} donnees.cpp -o donnees.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} phase.cpp -o phase.o
+if !(gcc -c ${flags} phase.cpp -o phase.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} thermo.cpp -o thermo.o
+if !(gcc -c ${flags} thermo.cpp -o thermo.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} cinetic.cpp -o cinetic.o
+if !(gcc -c ${flags} cinetic.cpp -o cinetic.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} equilibre.cpp -o equilibre.o
+if !(gcc -c ${flags} equilibre.cpp -o equilibre.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} qhullfunc.cpp -o qhullfunc.o
+if !(gcc -c ${flags} qhullfunc.cpp -o qhullfunc.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} cinetic1.cpp -o cinetic1.o
+if !(gcc -c ${flags} cinetic1.cpp -o cinetic1.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 2dpreci.cpp -o 2dpreci.o
+if !(gcc -c ${flags} 2dpreci.cpp -o 2dpreci.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 3dpreci.cpp -o 3dpreci.o
+if !(gcc -c ${flags} 3dpreci.cpp -o 3dpreci.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 4dpreci.cpp -o 4dpreci.o
+if !(gcc -c ${flags} 4dpreci.cpp -o 4dpreci.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 5dpreci.cpp -o 5dpreci.o
+if !(gcc -c ${flags} 5dpreci.cpp -o 5dpreci.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 3dpreciFeNiC.cpp -o 3dpreciFeNiC.o
+if !(gcc -c ${flags} 3dpreciFeNiC.cpp -o 3dpreciFeNiC.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} 3dpreciFeMoC.cpp -o 3dpreciFeMoC.o
+if !(gcc -c ${flags} 3dpreciFeMoC.cpp -o 3dpreciFeMoC.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} integration.cpp -o integration.o
+if !(gcc -c ${flags} integration.cpp -o integration.o)
+  then exit -1;
+fi
+echo gcc -c ${flags} integer.cpp -o integer.o
+if !(gcc -c ${flags} integer.cpp -o integer.o)
+  then exit -1;
+fi
+
+echo gcc ${flags} point.o hyperplane.o tools.o qhull.o preci.o newt.o donnees.o phase.o thermo.o cinetic.o equilibre.o qhullfunc.o cinetic1.o 2dpreci.o 3dpreci.o 4dpreci.o 5dpreci.o 3dpreciFeNiC.o 3dpreciFeMoC.o integration.o integer.o -lm -lstdc++ -o preci
+if !(gcc ${flags} point.o hyperplane.o tools.o qhull.o preci.o newt.o donnees.o phase.o thermo.o cinetic.o equilibre.o qhullfunc.o cinetic1.o 2dpreci.o 3dpreci.o 4dpreci.o 5dpreci.o 3dpreciFeNiC.o 3dpreciFeMoC.o integration.o integer.o -lm -lstdc++ -o preci)
+  then exit -1;
+fi
+
+echo rm -f *.o
+rm -f *.o
